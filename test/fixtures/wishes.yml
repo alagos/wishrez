@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  description: MyString
+  priority: 
+  arrival: 2011-11-07
+  status: 
+
+two:
+  description: MyString
+  priority: 
+  arrival: 2011-11-07
+  status: 
