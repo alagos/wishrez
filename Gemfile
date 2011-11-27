@@ -5,14 +5,17 @@ gem 'rails', '3.0.9'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
-
 gem 'haml'
 gem 'haml-rails'
 gem 'compass'
 gem 'html5-boilerplate'
 gem 'jquery-rails'
 gem 'web-app-theme'
+
+group :development, :test do
+  gem 'sqlite3'
+  gem 'hirb'
+end
 
 
 # Use unicorn as the web server
