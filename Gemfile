@@ -8,9 +8,11 @@ gem 'rails', '3.0.9'
 gem 'sqlite3'
 
 gem 'haml'
+gem 'haml-rails'
 gem 'compass'
 gem 'html5-boilerplate'
 gem 'jquery-rails'
+gem 'web-app-theme'
 
 
 # Use unicorn as the web server
